@@ -9,7 +9,7 @@ let email ; //=> undefined ;
 
 /* more data types
     null => this means empty
-    undefined => this happens when data type and variable is declared but not initialised.
+    undefined => this happens when datatype and variable is declared but not initialised.
     symbol => used for uniqueness 
     object => later..
 */
