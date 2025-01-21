@@ -1,5 +1,4 @@
 // PRIMITIVE DATA TYPES
-
 // 7 Types : String , Number , Boolean , null , undefined , symbol , bigint
 
 const score = 100 
@@ -33,3 +32,24 @@ const myfunction = function(){
     console.log("Hello World ");
     
 }
+
+
+//********************** MEMORY *****************//
+// Stack => All primitive datatypes are stored here // stack me declared variables ki copy milti hai for use
+// Heap => All non-primitive datatypes are store here // heap me declared variables ki original value milti hai
+
+let userOne={
+    email:"immam@google.com",
+    age: 22,
+}
+
+userTwo = userOne 
+
+userTwo.email = "immam@openai.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);  // they got changed as Object is non primitive and it got stored in heap and when used it 
+                            // it came as a original value and got changed.
+
+
+
