@@ -4,7 +4,7 @@ let myDate = new Date()
 console.log(myDate);  // very complex and not readable.
 console.log(myDate.toString()) ; // improved readability
 console.log(myDate.toDateString()); // more better 
-console.log(myDate.toISOString());
+// console.log(myDate.toISOString());
 console.log(myDate.toLocaleDateString());
 
 // ***** imp ***** //
